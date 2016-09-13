@@ -1,1 +1,52 @@
 /*  style.css */
+
+body {
+  font-family: papyrus;
+  font-size: 14pt;
+  text-align: left;
+}
+
+aside {
+  width: 30%;
+  float: none;
+  background-color: ForestGreen;
+}
+
+aside ul {
+  font-size: 0.76rem;
+  color: PaleTurquoise;
+}
+
+.smallfont {
+  font-size: 50%;
+}
+
+.picture-gallery {
+  list-style-type: none;
+  background-color: MediumSlateBlue;
+
+}
+
+.picture-gallery li {
+  float: left;
+  margin: 0 10px 0 10px;
+  background-color: red;
+}
+
+.main-body {
+  font-size: 1.25rem;
+}
+
+#main-title {
+  font-family: garamond;
+  font-size: 2rem; /*this will compound with .main-body class above if nested (ex: 2.0 x 2). Instead use the unit rem, which will not compound*/
+}
+
+.headinglist li:hover {
+  color: Sienna;
+}
+
+.enterline {
+  clear: both;
+  padding-top: 100px;
+}

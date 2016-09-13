@@ -3,13 +3,24 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<title>Website Title</title>
-		
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+
+		<link rel="stylesheet" href="css/style.css" type="text/css"> <!-- if there's a conflict, the latest stylesheet takes precedent. -->
+
+<!-- This is a bad practice to put the styling inside the html file-->
+	<!--
+	<style>
+		font-size:
+		font-family:
+	</style>
+	-->
+<!-- This is a bad practice -->
 	</head>
 <body>
 	<header>
 		<h1>Bill Murry</h1>
 		<nav>
-			<ul>
+			<ul class="headinglist">
 				<li>
 					Home
 				</li>
@@ -24,19 +35,19 @@
 	</header>
 
 <!-- the header -->
-<section>
-	<h1>Bill Murry</h1>
+<section class="main-body">
+	<h1 id="main-title">Bill Murry</h1>
 	<article>
 		<h2>Biography</h2>
 		<aside>
 			<ul>
 				<li>Bill Murry Wikipedia</li>
 				<li>Bill Murry's Official Site</li>
-				<li>Bill Murry's IMDB Page</li>
+				<li class="smallfont">Bill Murry's IMDB Page</li>
 			</ul>
 		</aside>
 		<section>
-			<ul>
+			<ul class="picture-gallery">
 				<li>
 					<img src="http://www.fillmurray.com/200/200" alt="some text" title="Bill!">
 				</li>
@@ -50,7 +61,7 @@
 		</section>
 		<section>
 			<article>
-				<h3>Introduction</h3>
+				<h3 class="enterline">Introduction</h3>
 			<p>Actor Bill Murray is a comedy icon best known for his popular 'Saturday Night Live' characters and movie classics such as 'Meatballs,' 'Caddyshack' and 'Ghostbusters.' He was nominated for an Oscar for his seriocomic role in 'Lost in Translation.'</p>
 		</article>
 		<article>
